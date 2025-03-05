@@ -1,0 +1,9 @@
+name: 
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - requests=2.25.1
+  - pip=21.0.1
+  - pip:
+      - wandb==0.10.30
