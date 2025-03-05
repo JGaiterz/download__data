@@ -1,9 +1,9 @@
-name: 
+name: download_data_env
 channels:
   - defaults
   - conda-forge
 dependencies:
-  - requests=2.25.1
-  - pip=21.0.1
+  - requests=2.24.0
+  - pip=20.3.3
   - pip:
-      - wandb==0.10.30
+      - wandb==0.10.21
